@@ -86,46 +86,46 @@ const technologies = [
 	// },
 ];
 
-// const experiences = [
-// 	{
-// 		title: "Wordpress Developer & UI/UX Designer",
-// 		company_name: "A.V.M Auto",
-// 		icon: "/company/avm.webp",
-// 		iconBg: "#383E56",
-// 		date: "2020 -  2023",
-// 		points: [
-// 			"Self-Taught Expertise: Gained proficiency in WordPress and UI/UX design through independent learning.",
-// 			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity.",
-// 			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
-// 			"Positive Business Impact: Contributed to +54.25% sales and overall business growth through the improved website."
-// 		],
-// 	},
-// 	{
-// 		title: "Next.JS Developer",
-// 		company_name: "Sparkbright Engineering",
-// 		icon: "/company/sparkbright.webp",
-// 		iconBg: "#E6DEDD",
-// 		date: "2023 - 2024",
-// 		points: [
-// 			"Self-Taught Expertise: Gained proficiency in React.JS and Next.JS through independent learning.",
-// 			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
-// 			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity."
-// 		],
-// 	},
-// 	{
-// 		title: "Software Developer",
-// 		company_name: "Way to Web Pvt. Ltd.",
-// 		icon: "/company/wtw.jpg",
-// 		iconBg: "#E6DEDD",
-// 		date: "2024 - Present",
-// 		points: [
-// 			"Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
-// 			"Analyzing feedbacks and fixing bugs.",
-// 			"Search Engine Optimization.",
-// 			"Design Maintainence and hosting maintenance.",
-// 		],
-// 	},
-// ];
+const experiences = [
+	{
+		title: "Wordpress Developer & UI/UX Designer",
+		company_name: "A.V.M Auto",
+		icon: "/company/avm.webp",
+		iconBg: "#383E56",
+		date: "2020 -  2023",
+		points: [
+			"Self-Taught Expertise: Gained proficiency in WordPress and UI/UX design through independent learning.",
+			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity.",
+			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
+			"Positive Business Impact: Contributed to +54.25% sales and overall business growth through the improved website."
+		],
+	},
+	{
+		title: "Next.JS Developer",
+		company_name: "Sparkbright Engineering",
+		icon: "/company/sparkbright.webp",
+		iconBg: "#E6DEDD",
+		date: "2023 - 2024",
+		points: [
+			"Self-Taught Expertise: Gained proficiency in React.JS and Next.JS through independent learning.",
+			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
+			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity."
+		],
+	},
+	{
+		title: "Software Developer",
+		company_name: "Way to Web Pvt. Ltd.",
+		icon: "/company/wtw.jpg",
+		iconBg: "#E6DEDD",
+		date: "2024 - Present",
+		points: [
+			"Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
+			"Analyzing feedbacks and fixing bugs.",
+			"Search Engine Optimization.",
+			"Design Maintainence and hosting maintenance.",
+		],
+	},
+];
 
 const testimonials = [
 	{
@@ -322,4 +322,4 @@ const projects :{
 	},
 ];
 
-export { services, technologies, testimonials, projects };
+export { services, technologies,experiences, testimonials, projects };

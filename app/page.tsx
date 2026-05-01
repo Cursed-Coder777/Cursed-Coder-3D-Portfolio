@@ -1,7 +1,7 @@
 import {
 	About,
 	Contact,
-	Experience,
+	// Experience,
 	Feedbacks,
 	Hero,
 	Navbar,
