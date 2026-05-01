@@ -58,12 +58,14 @@ const Contact = () => {
 	};
 
 	return (
-		<div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+		<div
+		style={{scrollPaddingTop:0}}
+		 className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
 			<motion.div
 				variants={slideIn("left", "tween", 0.2, 1)}
 				className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
 			>
-				<p className="heroSubText">Get in Touch</p>
+				<p className="heroSubText" >Get in Touch</p>
 				<h3 className="heroHeadText">Contact.</h3>
 				<form
 					ref={formRef}
@@ -103,7 +105,7 @@ const Contact = () => {
 							className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
 						/>
 					</label>
-					<button
+					<button 
 						type="submit"
 						className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
 					>

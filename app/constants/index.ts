@@ -4,8 +4,8 @@ export const navLinks = [
 		title: "About",
 	},
 	{
-		id: "work",
-		title: "Work",
+		id: "works",
+		title: "Works",
 	},
 	{
 		id: "contact",
@@ -14,24 +14,23 @@ export const navLinks = [
 ];
 
 const services = [
-	{
-		title: "UI/UX Designer",
-		icon: "/backend.webp",
-	},
-	{
-		title: "Full Stack Web Developer",
-		icon: "/web.webp",
-	},
-	{
-		title: "App Developer",
-		icon: "/mobile.webp",
-	},
-	{
-		title: "Software Engineer",
-		icon: "/creator.webp",
-	},
+  {
+    title: "3D Web Developer",
+    icon: "/web.webp",
+  },
+  {
+    title: "Full Stack Developer",
+    icon: "/backend.webp",
+  },
+  {
+    title: "Interactive UI Developer",
+    icon: "/creator.webp",
+  },
+  {
+    title: "Web Performance Optimizer",
+    icon: "/mobile.webp",
+  },
 ];
-
 const technologies = [
 	{
 		name: "HTML 5",
@@ -57,10 +56,10 @@ const technologies = [
 		name: "Next.JS",
 		icon: "/tech/nextjs.svg",
 	},
-	{
-		name: "Redux Toolkit",
-		icon: "/tech/redux.webp",
-	},
+	// {
+	// 	name: "Redux Toolkit",
+	// 	icon: "/tech/redux.webp",
+	// },
 	{
 		name: "Tailwind CSS",
 		icon: "/tech/tailwind.webp",
@@ -73,101 +72,101 @@ const technologies = [
 		name: "git",
 		icon: "/tech/git.webp",
 	},
-	{
-		name: "figma",
-		icon: "/tech/figma.webp",
-	},
-	{
-		name: "wordpress",
-		icon: "/tech/wordpress.webp",
-	},
-	{
-		name: "bootstrap",
-		icon: "/tech/bootstrap.webp",
-	},
+	// {
+	// 	name: "figma",
+	// 	icon: "/tech/figma.webp",
+	// },
+	// {
+	// 	name: "wordpress",
+	// 	icon: "/tech/wordpress.webp",
+	// },
+	// {
+	// 	name: "bootstrap",
+	// 	icon: "/tech/bootstrap.webp",
+	// },
 ];
 
-const experiences = [
-	{
-		title: "Wordpress Developer & UI/UX Designer",
-		company_name: "A.V.M Auto",
-		icon: "/company/avm.webp",
-		iconBg: "#383E56",
-		date: "2020 -  2023",
-		points: [
-			"Self-Taught Expertise: Gained proficiency in WordPress and UI/UX design through independent learning.",
-			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity.",
-			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
-			"Positive Business Impact: Contributed to +54.25% sales and overall business growth through the improved website."
-		],
-	},
-	{
-		title: "Next.JS Developer",
-		company_name: "Sparkbright Engineering",
-		icon: "/company/sparkbright.webp",
-		iconBg: "#E6DEDD",
-		date: "2023 - 2024",
-		points: [
-			"Self-Taught Expertise: Gained proficiency in React.JS and Next.JS through independent learning.",
-			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
-			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity."
-		],
-	},
-	{
-		title: "Software Developer",
-		company_name: "Way to Web Pvt. Ltd.",
-		icon: "/company/wtw.jpg",
-		iconBg: "#E6DEDD",
-		date: "2024 - Present",
-		points: [
-			"Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
-			"Analyzing feedbacks and fixing bugs.",
-			"Search Engine Optimization.",
-			"Design Maintainence and hosting maintenance.",
-		],
-	},
-];
+// const experiences = [
+// 	{
+// 		title: "Wordpress Developer & UI/UX Designer",
+// 		company_name: "A.V.M Auto",
+// 		icon: "/company/avm.webp",
+// 		iconBg: "#383E56",
+// 		date: "2020 -  2023",
+// 		points: [
+// 			"Self-Taught Expertise: Gained proficiency in WordPress and UI/UX design through independent learning.",
+// 			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity.",
+// 			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
+// 			"Positive Business Impact: Contributed to +54.25% sales and overall business growth through the improved website."
+// 		],
+// 	},
+// 	{
+// 		title: "Next.JS Developer",
+// 		company_name: "Sparkbright Engineering",
+// 		icon: "/company/sparkbright.webp",
+// 		iconBg: "#E6DEDD",
+// 		date: "2023 - 2024",
+// 		points: [
+// 			"Self-Taught Expertise: Gained proficiency in React.JS and Next.JS through independent learning.",
+// 			"Successful Website Development: Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
+// 			"Collaborative Design: Worked closely with stakeholders to gather feedback and iterate on the portfolio website's interactivity."
+// 		],
+// 	},
+// 	{
+// 		title: "Software Developer",
+// 		company_name: "Way to Web Pvt. Ltd.",
+// 		icon: "/company/wtw.jpg",
+// 		iconBg: "#E6DEDD",
+// 		date: "2024 - Present",
+// 		points: [
+// 			"Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
+// 			"Analyzing feedbacks and fixing bugs.",
+// 			"Search Engine Optimization.",
+// 			"Design Maintainence and hosting maintenance.",
+// 		],
+// 	},
+// ];
 
 const testimonials = [
 	{
 		id: 1,
 		testimonial:
 			"Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
-		name: "Om Patel",
+		name: "Muhammad Ansab",
 		image: "/socialmedia/behance.svg",
-		link: "https://www.behance.net/omthecreator",
+		link: "",
 	},
 	{
 		id: 2,
 		testimonial:
 			"LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-		name: "Om Patel",
+		name: "Muhammad Ansab",
 		image: "/socialmedia/linkedin.svg",
-		link: "https://www.linkedin.com/in/om-patel-401068143/",
+		link: "",
 	},
 	{
 		id: 3,
 		testimonial:
 			"Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
-		name: "Om Patel",
+		name: "Muhammad Ansab",
 		image: "/socialmedia/dribble.svg",
-		link: "https://dribbble.com/om2121",
+		link: "",
 	},
 	{
 		id: 4,
 		testimonial:
 			"Also do check out my UI/UX Portfolio where I have shared by design studies.",
-		name: "Om Patel",
+		name: "Muhammad Ansab",
 		image: "/socialmedia/portfolio.svg",
-		link: "https://omthecreator.netlify.app/",
+		link: "",
 	},
 	{
 		id: 5,
 		testimonial:
 			"Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-		name: "Om Patel",
+		name: "Muhammad Ansab",
 		image: "/tech/github.webp",
-		link: "https://github.com/omunite215",
+		link: "",
 	},
 ];
 
@@ -200,7 +199,7 @@ const projects :{
 		],
 		image: "/projectimg/avm.webp",
 		platform: "Wordpress",
-		deploy_link: "https://avmauto.in/",
+		deploy_link: "",
 	},
 	{
 		name: "Sparkbright Engineering Portfolio",
@@ -221,9 +220,9 @@ const projects :{
 			},
 		],
 		image: "/projectimg/sparkbright.png",
-		source_code_link: "https://github.com/omunite215/React-Admin-DashBoard",
+		source_code_link: "https://github.com/",
 		platform: "Web",
-		deploy_link: "https://sparkbright.in/",
+		deploy_link: "",
 	},
 	{
 		name: "HooBank",
@@ -240,9 +239,9 @@ const projects :{
 			},
 		],
 		image: "/projectimg/hoobank.webp",
-		source_code_link: "https://github.com/omunite215/hoobank",
+		source_code_link: "https://github.com/",
 		platform: "Vercel",
-		deploy_link: "https://hoobankbyom.netlify.app/",
+		deploy_link: "",
 	},
 	{
 		name: "MERN Dashboard",
@@ -267,9 +266,9 @@ const projects :{
 			},
 		],
 		image: "/projectimg/mern.png",
-		source_code_link: "https://github.com/omunite215/Project_MERN-Dashboard",
+		source_code_link: "https://github.com/",
 		platform: "Web",
-		deploy_link: "https://admin-frontend-r705.onrender.com/",
+		deploy_link: "",
 	},
 	{
 		name: "Metaverse Web 3.0",
@@ -290,9 +289,9 @@ const projects :{
 			},
 		],
 		image: "/projectimg/metaverse.png",
-		source_code_link: "https://github.com/omunite215/Project_Metaverse",
+		source_code_link: "https://github.com/",
 		platform: "Vercel",
-		deploy_link: "https://project-metaverse-beta.vercel.app/",
+		deploy_link: "",
 	},
 	{
 		name: "Issue Tracker",
@@ -317,10 +316,10 @@ const projects :{
 			},
 		],
 		image: "/projectimg/issuetracker.png",
-		source_code_link: "https://github.com/omunite215/Project_Issue-Tracker",
+		source_code_link: "https://github.com/",
 		platform: "Vercel",
-		deploy_link: "https://project-issue-tracker.vercel.app/",
+		deploy_link: "",
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, testimonials, projects };
