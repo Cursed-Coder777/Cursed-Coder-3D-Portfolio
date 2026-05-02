@@ -48,12 +48,12 @@ html {
 
 /* 👇 Contact section ke liye alag value */
 #contact {
-  scroll-margin-top: -30px; /* Kam offset */
+  scroll-margin-top: -10px; /* Kam offset */
 }
 
 /* Ya puri tarah override */
 #works {
-  scroll-margin-top: 120px; /* Zyada offset */
+  scroll-margin-top: 0px; /* Zyada offset */
 }
 
 #about {

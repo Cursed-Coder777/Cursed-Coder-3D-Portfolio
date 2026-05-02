@@ -33,9 +33,9 @@ const Contact = () => {
 				"template_jjegxdr",
 				{
 					from_name: form.name,
-					to_name: "Om Patel",
+					to_name: "Muhammad Ansab",
 					from_email: form.email,
-					to_email: "omunite21@gmail.com",
+					to_email: "cursedcoder812@gmail.com",
 					message: form.message,
 				},
 				"VeFeVdEHL9F9_i6xp",
@@ -59,7 +59,7 @@ const Contact = () => {
 
 	return (
 		<div
-		style={{scrollPaddingTop:0}}
+		
 		 className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
 			<motion.div
 				variants={slideIn("left", "tween", 0.2, 1)}

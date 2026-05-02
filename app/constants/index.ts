@@ -184,7 +184,7 @@ const projects :{
 	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web"
 }[] = [
 	{
-		name: "A.V.M Auto Portfolio",
+		name: "A.V.M Auto Portfolio (Dummy Data)",
 		description:
 			"A Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
 		tags: [
@@ -202,7 +202,7 @@ const projects :{
 		deploy_link: "",
 	},
 	{
-		name: "Sparkbright Engineering Portfolio",
+		name: "Sparkbright Engineering Portfolio (Dummy Data)",
 		description:
 			" Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
 		tags: [
@@ -225,7 +225,7 @@ const projects :{
 		deploy_link: "",
 	},
 	{
-		name: "HooBank",
+		name: "HooBank (Dummy Data)",
 		description:
 			"A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
 		tags: [
@@ -244,7 +244,7 @@ const projects :{
 		deploy_link: "",
 	},
 	{
-		name: "MERN Dashboard",
+		name: "MERN Dashboard (Dummy Data)",
 		description:
 			" Designed and developed a visually appealing and user-friendly Data Analytics Dashboard using MERN",
 		tags: [
@@ -271,7 +271,7 @@ const projects :{
 		deploy_link: "",
 	},
 	{
-		name: "Metaverse Web 3.0",
+		name: "Metaverse Web 3.0 (Dummy Data)",
 		description:
 			"A Modern UI/UX Landing Page using Framer Motion and TailwindCSS with a feel and looks of Web 3.0",
 		tags: [
@@ -294,7 +294,7 @@ const projects :{
 		deploy_link: "",
 	},
 	{
-		name: "Issue Tracker",
+		name: "Issue Tracker (Dummy Data)",
 		description:
 			"A Next.JS Full Stack Issue Tracker made using Next.Js, ShadCN UI, Prisma, mySQL with latest features like Next.JS Server Components, and Serverless features.",
 		tags: [
