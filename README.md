@@ -1,90 +1,36 @@
-# Project 3D - Portfolio
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<!-- <p align="center">
-  <img src="https://user-images.githubusercontent.com/78680563/227708528-0e803ddf-506e-4d8b-98bc-dd7bf0f1b518.png" alt="Om's Logo Image"/>
-</p> -->
+## Getting Started
 
-This was my first project using Vite. Initially made using tutorial of [JavaScipt Mastery](https://youtu.be/0fYi8SGA20k?feature=shared).
-
-Work done on it other than the tutorial:-
-- Removed unused CSS.
-- Removed Extra Animations.
-- Made UI Faster.
-- Added a Resume Button (Where you can put a link to your resume).
-- Enhanced Visibility and solved Responsive UI Problems.
-
-This Project is hosted in Netlify : [3D Portfolio](https://portfoliobyompatel.netlify.app/)
-
-## :star: Give A Star
-
-You can also give this repository a star to show more people and they can use this repository.
-
-# Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-Prerequisites
-Before you start, make sure you have the following software installed on your computer:
-
-[![My Skills](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)
-
-
-## ℹ️ How to use this Repository?
-
-1. Clone the repository to your local machine
+First, run the development server:
 
 ```bash
-  git clone https://github.com/omunite215/Project_3DPortfolio.git
-
-```
-2. Navigate to the project directory
-
-```bash
-  cd Project_3DPortfolio
-```
-3. Install the necessary dependencies
-```bash
-  npm install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-4. Start the development server
-```bash
-  npm run dev
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The website should now be up and running on http://localhost:3000.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🏠 Built With:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,react,nextjs,threejs,tailwind,netlify)](https://skillicons.dev)
+## Learn More
 
-## 🛠 Skills
+To learn more about Next.js, take a look at the following resources:
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,threejs)](https://skillicons.dev)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🚀 About Me
-Specializations:
-- UI/UX Design.
-- Web Development
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 🙋‍♂️ Connect With Me
+## Deploy on Vercel
 
-[<img src="https://skillicons.dev/icons?i=github" />](https://github.com/omunite215)&nbsp;
-[<img src="https://skillicons.dev/icons?i=linkedin" />](https://www.linkedin.com/in/om-patel-401068143/)&nbsp;
-[<img src="https://skillicons.dev/icons?i=instagram" />](https://www.instagram.com/_21omp/)&nbsp;
-[<img src="https://skillicons.dev/icons?i=devto" />](https://portfoliobyom.netlify.app/)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 🗒️ Authors
-- Om Patel
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <a href="https://github.com/omunite215">
-      <img src="https://skillicons.dev/icons?i=github" />
-    </a>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://github.com/omunite215/Project_3DPortfolio/assets/78680563/2fcf609b-e802-4fec-8c82-8f55fd043437" alt="Om's Logo Image"/>
-</p>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
