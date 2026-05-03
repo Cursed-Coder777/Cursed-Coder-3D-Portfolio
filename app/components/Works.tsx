@@ -37,7 +37,7 @@ const ProjectCard = ({
 			<Tilt
 				options={{
 					max: 90,
-					scale: 2,
+					scale: 1,
 					speed: 450,
 				}}
 				className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
