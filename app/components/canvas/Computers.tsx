@@ -32,7 +32,7 @@ const Computers = ({ isMobile }: { isMobile: boolean }) => {
 		color={"#915EFF"}
         position={[0, 0, 7]}
         angle={20}
-        penumbra={1}
+        penumbra={0}
         intensity={1000}
         castShadow
         shadow-mapSize={1024}

@@ -7,7 +7,7 @@ import { useTypewriter } from "@/app/hooks/useTypeWriter";
 
 const Hero = () => {
   const { displayText: nameText } = useTypewriter({
-    texts: ["Muhammad Ansab"],
+    texts: ["Cursed Coder"],
     typingSpeed: 100,
     deletingSpeed: 50,
     pauseDuration: 1000,

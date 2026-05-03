@@ -36,7 +36,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Muhammad Ansab | Portfolio",
+  title: "Cursed Coder | Portfolio",
   description: "3D Web Developer & Full Stack Engineer",
   icons: {
     icon: "/hacker.jpeg", // 👈 Tab icon
